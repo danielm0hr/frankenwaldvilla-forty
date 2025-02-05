@@ -17,4 +17,8 @@ body.is-preload #banner > .inner {
   transform: none;
   opacity: 1; }
 
+body.is-preload #gallery .thumb {
+  pointer-events: auto;
+  opacity: 1; }
+
 /*# sourceMappingURL=noscript.css.map */
