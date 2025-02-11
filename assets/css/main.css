@@ -2417,7 +2417,7 @@ button,
 #main {
   background-color: #2a2f4a; }
   #main > * {
-    border-top: solid 1px rgba(212, 212, 255, 0.1); }
+    border-top: solid 0px rgba(212, 212, 255, 0.1); }
     #main > *:first-child {
       border-top: 0; }
     #main > * > .inner {
@@ -2431,7 +2431,7 @@ button,
           width: calc(100% - 3em); } }
   #main.alt {
     background-color: transparent;
-    border-bottom: solid 1px rgba(212, 212, 255, 0.1); }
+    border-bottom: solid 0px rgba(212, 212, 255, 0.1); }
 
 /* Main */
 #gallery {
