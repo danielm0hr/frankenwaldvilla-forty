@@ -53,14 +53,14 @@
 
 			on = function() {
 
-				$t.css('background-position', 'center 100%, center 100%, center 0px');
+				$t.css('background-position', 'center 100%, center 100%, center 0');
 
 				$window
 					.on('scroll._parallax', function() {
 
 						var pos = parseInt($window.scrollTop()) - parseInt($t.position().top);
 
-						$t.css('background-position', 'center ' + (pos * (-1 * intensity)) + 'px');
+						$t.css('background-position', 'center ' + (-300 + pos * (-1 * intensity)) + 'px');
 
 					});
 
@@ -76,8 +76,8 @@
 
 			};
 
-			breakpoints.on('<=medium', off);
-			breakpoints.on('>medium', on);
+			breakpoints.on('<=large', off);
+			breakpoints.on('>large', on);
 
 		});
 
